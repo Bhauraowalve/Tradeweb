@@ -1,0 +1,7 @@
+
+.sidebar-nav .nav-link.active {
+    color: var(--cui-sidebar-nav-link-active-color, rgba(255, 255, 255, 0.87));
+    background: var(--cui-sidebar-nav-link-active-bg, gray);
+    /* border-bottom: 5px solid white ;
+    bottom: 0; */
+}

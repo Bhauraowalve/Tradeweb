@@ -1,0 +1,108 @@
+/* Desktop CSS */
+
+.contactus_banner_out {
+  margin-top: 10%;
+}
+.bannerTitle {
+  font-size: 18px;
+  color: white;
+}
+.bannerText {
+  font-weight: bold;
+  color: white;
+}
+.contactusFirstImageBack {
+  width: 400px;
+  height: 465px;
+}
+.contactusFirstImage {
+  width: 484px;
+  height: 550px;
+  margin-top: -455px;
+  margin-left: -90px;
+}
+.contactDetailsTitle {
+  font-size: 18px;
+  color: #422a3c;
+  margin-top: 25px;
+}
+.contactDetails1stText {
+  font-weight: bold;
+  color: black;
+}
+.contactDetails2ndText,
+.usTitle {
+  color: black;
+}
+.contactDetails2ndTet {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.contactIcons {
+  height: 75%;
+}
+.container {
+  background-color: #fbf2e0;
+}
+.formTitle {
+  color: #ba7894;
+}
+.formHeading {
+  color: #422a3c;
+  font-weight: bold;
+}
+.formText {
+  color: #555555;
+}
+.formCard {
+  width: 50%;
+  margin-left: 25%;
+  padding: 5%;
+}
+
+/* Mobile CSS */
+
+@media only screen and (max-width: 600px) {
+  .contactus_banner_out {
+    margin-top: 3%;
+  }
+  .bannerTitle {
+    font-size: 10px;
+  }
+  .bannerText {
+    font-size: 18px;
+  }
+  .contactusFirstImageBack {
+    width: 300px;
+    height: 380px;
+    margin-left: 70px;
+  }
+  .contactusFirstImage {
+    width: 360px;
+    height: 450px;
+    margin-top: -362px;
+    margin-left: 0px;
+  }
+  .contactDetailsTitle,
+  .contactDetails1stText {
+    text-align: center;
+  }
+  .contactDetails2ndText {
+    text-align: justify;
+    margin: 15px;
+  }
+  .contactIcons {
+    display: inline-block;
+  }
+  .usTitle,
+  .usText,
+  .contdet {
+    margin-left: 10px;
+  }
+
+  .formCard {
+    width: 90%;
+    margin-left: 9%;
+    padding: 5%;
+  }
+}

@@ -1,0 +1,103 @@
+/* Desktop CSS */
+
+.home_banner_out {
+    margin-top: 7%;
+    margin-left: 7%;
+}
+.home_banner_out p {
+    font-size: 18px;
+    color: white 
+}
+.home_banner_out .heding{
+    font-weight: bold;
+    font-size: 67px;
+    color: white 
+}
+.home_banner_serach{
+    background-color: white;
+    height:  80px;
+}
+
+.gallery_section strong{
+    font-size: 40px;
+}
+
+.recommanded_section {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 4%;
+}
+
+.recommanded_section strong{
+    font-size: 40px;
+}
+
+.customer_says {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 4%;
+}
+.customer_says strong{
+    font-size: 40px;
+}
+
+.newslatter_section{
+    height: 300px;
+}
+
+.newslatter_section p{
+    text-align: start;
+}
+
+.newslatter_section strong{
+    font-size: 40px;
+}
+
+.newslatter_img{
+    height: 250px;
+    width:440px;
+}
+/* Mobile CSS */
+
+@media only screen and (max-width: 600px) {
+    .home_banner_out {
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+    .home_banner_out p {
+        font-size: 10px;
+        color: white 
+    }
+    .home_banner_out .heding{
+        font-weight: bold;
+        font-size: 14px;
+        color: white 
+    }
+    .home_banner_serach{
+        background-color: white;
+        height:  40px;
+    }
+    .gallery_section strong{
+        font-size: 30px;
+    }
+    .recommanded_section strong{
+        font-size: 30px;
+    }
+
+    .customer_says strong{
+        font-size: 30px;
+    }
+    .newslatter_section{
+        height: 450px;
+    }
+    .newslatter_section p{
+        text-align: center;
+    }
+    .newslatter_section strong{
+        font-size: 30px;
+    }
+    .newslatter_img{
+        height: 200px;
+        width:340px;
+    }
+}
